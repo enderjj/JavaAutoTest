@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="firstSuite">
+
+    <test name="login">
+        <classes>
+            <class name="com.enderjj.test.suite.SuiteConfig" />
+            <class name="com.enderjj.test.suite.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="com.enderjj.test.suite.SuiteConfig" />
+            <class name="com.enderjj.test.suite.PayTest" />
+        </classes>
+    </test>
+
+</suite>
