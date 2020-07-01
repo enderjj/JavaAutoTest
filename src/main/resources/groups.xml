@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="groupSuite">
+
+    <test name="runAll">
+
+        <classes>
+            <class name="com.enderjj.test.groups.GroupsClassOne"></class>
+            <class name="com.enderjj.test.groups.GroupsClassTwo"></class>
+            <class name="com.enderjj.test.groups.GroupsClassThree"></class>
+        </classes>
+
+    </test>
+
+    <test name="runGroup">
+
+        <groups>
+            <run>
+                <include name="groupOne" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.enderjj.test.groups.GroupsClassOne"></class>
+            <class name="com.enderjj.test.groups.GroupsClassTwo"></class>
+            <class name="com.enderjj.test.groups.GroupsClassThree"></class>
+        </classes>
+
+    </test>
+
+</suite>
