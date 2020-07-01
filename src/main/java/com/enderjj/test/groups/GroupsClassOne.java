@@ -2,7 +2,7 @@ package com.enderjj.test.groups;
 
 import org.testng.annotations.Test;
 
-@Test(groups = "groupOne")
+@Test(groups = "groupOne") // 在类上标注 @Test，对类进行分组
 public class GroupsClassOne {
 
     public void test1() {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!-- 分组测试配置 -->
 <suite name="groupSuite">
 
     <test name="runAll">
