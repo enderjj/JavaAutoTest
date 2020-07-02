@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="parameterSuite">
+    <test name="parameterTest">
+        <classes>
+
+            <parameter name="name" value="enderjj" />
+            <parameter name="age" value="18" />
+
+            <class name="com.enderjj.test.parameter.ParameterTest" />
+        </classes>
+    </test>
+</suite>
