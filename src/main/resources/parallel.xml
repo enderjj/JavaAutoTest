@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- parallel 属性用于指定多线程运行的级别；thread-count 用于指定线程数
+     parallel="methods" 表示在不同的线程中运行所有的测试方法
+     parallel="tests" 表示在同一个线程中运行相同 test tag 中所有的测试方法
+     parallel="classed" 表示在同一个线程中运行相同 classes tag 中所有的测试方法
+     parallel="instances" 表示在同一个线程中运行相同实例的所有的测试方法
+-->
+
+<suite name="parallelSuite" parallel="methods" thread-count="2">
+    <test name="parallelTest">
+        <classes>
+            <class name="com.enderjj.test.parallel.ParallelTest" />
+        </classes>
+    </test>
+</suite>
+
+<!--<suite name="parallelSuite" parallel="tests" thread-count="2">-->
+<!--    <test name="parallelTest">-->
+<!--        <classes>-->
+<!--            <class name="com.enderjj.test.parallel.ParallelTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="demo">-->
+<!--        <classes>-->
+<!--            <class name="com.enderjj.test.parallel.Demo" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--<suite name="parallelSuite" parallel="classes" thread-count="2">-->
+<!--    <test name="parallelTest">-->
+<!--        <classes name="demo1">-->
+<!--            <class name="com.enderjj.test.parallel.ParallelTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="demo">-->
+<!--        <classes name="demo2">-->
+<!--            <class name="com.enderjj.test.parallel.Demo" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
